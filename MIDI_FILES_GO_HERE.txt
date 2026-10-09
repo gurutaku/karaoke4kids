@@ -1,0 +1,12 @@
+Place these MIDI files in the same directory as index.html and songs.json:
+
+jingle-bells.mid
+deck-the-halls.mid
+we-wish-you-a-merry-christmas.mid
+the-first-noel.mid
+o-come-all-ye-faithful.mid
+we-three-kings.mid
+away-in-a-manger.mid
+good-king-wenceslas.mid
+
+Only use MIDI arrangements whose licenses permit your intended use and redistribution.

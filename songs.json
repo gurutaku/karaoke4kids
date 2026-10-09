@@ -1,0 +1,611 @@
+{
+  "title": "SingSprout Christmas Karaoke",
+  "version": 1,
+  "notes": "Place each named MIDI file in the same directory as index.html and songs.json. Lyric startBeat values are starter estimates, not verified against a specific arrangement.",
+  "songs": [
+    {
+      "id": "jingle-bells",
+      "title": "Jingle Bells",
+      "midi": "Jingle_Bells.mid",
+      "emoji": "🔔",
+      "theme": "peach",
+      "bpmHint": 116,
+      "description": "A bouncy sleigh-ride favourite",
+      "mood": "Sleigh ride",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "Dashing through the snow",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "In a one-horse open sleigh",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "O’er the fields we go",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "Laughing all the way",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "Bells on bobtails ring",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "Making spirits bright",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "What fun it is to ride and sing",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "A sleighing song tonight",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Jingle bells, jingle bells",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "Jingle all the way",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Oh, what fun it is to ride",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "In a one-horse open sleigh",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "deck-the-halls",
+      "title": "Deck the Halls",
+      "midi": "Deck_the_Halls.mid",
+      "emoji": "🎀",
+      "theme": "lavender",
+      "bpmHint": 118,
+      "description": "Fa-la-la fun for the whole family",
+      "mood": "Festive cheer",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "Deck the halls with boughs of holly",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "’Tis the season to be jolly",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "Don we now our gay apparel",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "Fa-la-la, la-la-la, la-la-la",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "Troll the ancient Yuletide carol",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "See the blazing Yule before us",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Strike the harp and join the chorus",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "we-wish",
+      "title": "We Wish You a Merry Christmas",
+      "midi": "We_Wish_You_A_Merry_Christmas.mid",
+      "emoji": "🎁",
+      "theme": "mint",
+      "bpmHint": 108,
+      "description": "A friendly holiday greeting in song",
+      "mood": "Holiday wishes",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "We wish you a Merry Christmas",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "We wish you a Merry Christmas",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "We wish you a Merry Christmas",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "And a happy New Year",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "Good tidings we bring",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "To you and your kin",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "We wish you a Merry Christmas",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "And a happy New Year",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Oh, bring us some figgy pudding",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "Oh, bring us some figgy pudding",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Oh, bring us some figgy pudding",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "And bring it right here",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "the-first-noel",
+      "title": "The First Noel",
+      "midi": "First_Nowell.mid",
+      "emoji": "⭐",
+      "theme": "mint",
+      "bpmHint": 90,
+      "description": "A gentle, star-lit traditional carol",
+      "mood": "Starry night",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "The first Noel the angel did say",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "Was to certain poor shepherds in fields as they lay",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "In fields where they lay keeping their sheep",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "On a cold winter’s night that was so deep",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "Noel, Noel, Noel, Noel",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "Born is the King of Israel",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "They looked up and saw a star",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "Shining in the east beyond them far",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "And to the earth it gave great light",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "And so it continued both day and night",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Noel, Noel, Noel, Noel",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "Born is the King of Israel",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "o-come-all-ye-faithful",
+      "title": "O Come, All Ye Faithful",
+      "midi": "o-come-all-ye-faithful.mid",
+      "emoji": "🕯️",
+      "theme": "lavender",
+      "bpmHint": 100,
+      "description": "A welcoming carol made for singing together",
+      "mood": "Come and sing",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "O come, all ye faithful, joyful and triumphant",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "O come ye, O come ye to Bethlehem",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "Come and behold Him, born the King of angels",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him, Christ the Lord",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "Sing, choirs of angels, sing in exultation",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "Sing, all ye citizens of heaven above",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Glory to God, all glory in the highest",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him, Christ the Lord",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "we-three-kings",
+      "title": "We Three Kings",
+      "midi": "Three_Kings_of_Orient.mid",
+      "emoji": "👑",
+      "theme": "sky",
+      "bpmHint": 100,
+      "description": "Follow the star with the three wise men",
+      "mood": "Star of wonder",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "We three kings of Orient are",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "Bearing gifts we traverse afar",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "Field and fountain, moor and mountain",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "Following yonder star",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "O star of wonder, star of night",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "Star with royal beauty bright",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "Westward leading, still proceeding",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "Guide us to thy perfect light",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Born a King on Bethlehem’s plain",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "Gold I bring to crown Him again",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "King forever, ceasing never",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "Over us all to reign",
+          "startBeat": 44,
+          "stanza": 2
+        },
+        {
+          "text": "O star of wonder, star of night",
+          "startBeat": 48,
+          "stanza": 2
+        },
+        {
+          "text": "Star with royal beauty bright",
+          "startBeat": 52,
+          "stanza": 2
+        },
+        {
+          "text": "Westward leading, still proceeding",
+          "startBeat": 56,
+          "stanza": 2
+        },
+        {
+          "text": "Guide us to thy perfect light",
+          "startBeat": 60,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "away-in-a-manger",
+      "title": "Away in a Manger",
+      "midi": "Away_in_a_Manger_Kirkpatrick_melody.mid",
+      "emoji": "🌙",
+      "theme": "peach",
+      "bpmHint": 84,
+      "description": "A gentle Christmas lullaby",
+      "mood": "Gentle lullaby",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "Away in a manger, no crib for a bed",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "The little Lord Jesus laid down His sweet head",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "The stars in the bright sky looked down where He lay",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "The little Lord Jesus asleep on the hay",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "The cattle are lowing, the baby awakes",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "But little Lord Jesus, no crying He makes",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "I love Thee, Lord Jesus, look down from the sky",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "And stay by my cradle till morning is nigh",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Be near me, Lord Jesus, I ask Thee to stay",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "Close by me forever, and love me, I pray",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Bless all the dear children in Thy tender care",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "And fit us for heaven, to live with Thee there",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    },
+    {
+      "id": "good-king-wenceslas",
+      "title": "Good King Wenceslas",
+      "midi": "Good_King_Wenceslas.mid",
+      "emoji": "❄️",
+      "theme": "sky",
+      "bpmHint": 104,
+      "description": "A wintry story about kindness",
+      "mood": "Winter story",
+      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+      "lyrics": [
+        {
+          "text": "Good King Wenceslas looked out",
+          "startBeat": 0,
+          "stanza": 1
+        },
+        {
+          "text": "On the Feast of Stephen",
+          "startBeat": 4,
+          "stanza": 1
+        },
+        {
+          "text": "When the snow lay round about",
+          "startBeat": 8,
+          "stanza": 1
+        },
+        {
+          "text": "Deep and crisp and even",
+          "startBeat": 12,
+          "stanza": 1
+        },
+        {
+          "text": "Brightly shone the moon that night",
+          "startBeat": 16,
+          "stanza": 1
+        },
+        {
+          "text": "Though the frost was cruel",
+          "startBeat": 20,
+          "stanza": 1
+        },
+        {
+          "text": "When a poor man came in sight",
+          "startBeat": 24,
+          "stanza": 2
+        },
+        {
+          "text": "Gathering winter fuel",
+          "startBeat": 28,
+          "stanza": 2
+        },
+        {
+          "text": "Hither, page, and stand by me",
+          "startBeat": 32,
+          "stanza": 2
+        },
+        {
+          "text": "If thou know’st it, telling",
+          "startBeat": 36,
+          "stanza": 2
+        },
+        {
+          "text": "Yonder peasant, who is he",
+          "startBeat": 40,
+          "stanza": 2
+        },
+        {
+          "text": "Where and what his dwelling",
+          "startBeat": 44,
+          "stanza": 2
+        }
+      ]
+    }
+  ]
+}
