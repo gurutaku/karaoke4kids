@@ -483,32 +483,32 @@
         },
         {
           "text": "O come ye to Bethlehem",
-          "startBeat": 20,
+          "startBeat": 22,
           "stanza": 1
         },
         {
           "text": "Come and behold Him",
-          "startBeat": 30,
-          "stanza": 1
-        },
-        {
-          "text": "Born the King of angels",
           "startBeat": 40,
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him",
-          "startBeat": 50,
+          "text": "Born the King of angels",
+          "startBeat": 45,
           "stanza": 1
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 55,
+          "startBeat": 48,
           "stanza": 1
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 60,
+          "startBeat": 53,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 58,
           "stanza": 1
         },
         {
