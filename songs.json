@@ -82,7 +82,7 @@
       "midi": "Deck_the_Halls.mid",
       "emoji": "🎀",
       "theme": "lavender",
-      "bpmHint": 118,
+      "bpmHint": 59,
       "description": "Fa-la-la fun for the whole family",
       "mood": "Festive cheer",
       "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
