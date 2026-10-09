@@ -82,7 +82,7 @@
       "midi": "Deck_the_Halls.mid",
       "emoji": "🎀",
       "theme": "lavender",
-      "bpmHint": 59,
+      "bpmHint": 118,
       "description": "Fa-la-la fun for the whole family",
       "mood": "Festive cheer",
       "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
@@ -94,57 +94,57 @@
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "’Tis the season to be jolly",
           "startBeat": 8,
           "stanza": 1
         },
         {
-          "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "Don we now our gay apparel",
+          "text": "’Tis the season to be jolly",
           "startBeat": 16,
           "stanza": 1
         },
         {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 24,
+          "stanza": 1
+        },
+        {
+          "text": "Don we now our gay apparel",
+          "startBeat": 32,
+          "stanza": 1
+        },
+        {
           "text": "Fa-la-la, la-la-la, la-la-la",
-          "startBeat": 20,
+          "startBeat": 40,
           "stanza": 1
         },
         {
           "text": "Troll the ancient Yuletide carol",
-          "startBeat": 24,
+          "startBeat": 48,
           "stanza": 2
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 28,
+          "startBeat": 56,
           "stanza": 2
         },
         {
           "text": "See the blazing Yule before us",
-          "startBeat": 32,
+          "startBeat": 64,
           "stanza": 2
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 36,
+          "startBeat": 72,
           "stanza": 2
         },
         {
           "text": "Strike the harp and join the chorus",
-          "startBeat": 40,
+          "startBeat": 80,
           "stanza": 2
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 44,
+          "startBeat": 88,
           "stanza": 2
         }
       ]
