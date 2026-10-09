@@ -467,18 +467,38 @@
       "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
       "lyrics": [
         {
-          "text": "O come, all ye faithful, joyful and triumphant",
+          "text": "O come, all ye faithful",
           "startBeat": 0,
           "stanza": 1
         },
         {
-          "text": "O come ye, O come ye to Bethlehem",
+          "text": "Joyful and triumphant",
+          "startBeat": 9,
+          "stanza": 1
+        },
+        {
+          "text": "O come ye",
           "startBeat": 18,
           "stanza": 1
         },
         {
-          "text": "Come and behold Him, born the King of angels",
+          "text": "O come ye to Bethlehem",
+          "startBeat": 22,
+          "stanza": 1
+        },
+        {
+          "text": "Come and behold Him",
+          "startBeat": 27,
+          "stanza": 1
+        },
+        {
+          "text": "Born the King of angels",
           "startBeat": 36,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 45,
           "stanza": 1
         },
         {
@@ -488,42 +508,62 @@
         },
         {
           "text": "O come, let us adore Him",
+          "startBeat": 63,
+          "stanza": 1
+        },
+        {
+          "text": "Christ the Lord",
           "startBeat": 72,
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 90,
-          "stanza": 1
+          "text": "Sing, choirs of angels",
+          "startBeat": 81,
+          "stanza": 2
         },
         {
-          "text": "Sing, choirs of angels, sing in exultation",
+          "text": "Sing in exultation",
+          "startBeat": 90,
+          "stanza": 2
+        },
+        {
+          "text": "Sing, all ye citizens",
+          "startBeat": 99,
+          "stanza": 2
+        },
+        {
+          "text": "Of heaven above",
           "startBeat": 108,
           "stanza": 2
         },
         {
-          "text": "Sing, all ye citizens of heaven above",
+          "text": "Glory to God",
+          "startBeat": 117,
+          "stanza": 2
+        },
+        {
+          "text": "All glory in the highest",
           "startBeat": 126,
           "stanza": 2
         },
         {
-          "text": "Glory to God, all glory in the highest",
+          "text": "O come, let us adore Him",
+          "startBeat": 135,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him",
           "startBeat": 144,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
+          "startBeat": 153,
+          "stanza": 2
+        },
+        {
+          "text": "Christ the Lord",
           "startBeat": 162,
-          "stanza": 2
-        },
-        {
-          "text": "O come, let us adore Him",
-          "startBeat": 180,
-          "stanza": 2
-        },
-        {
-          "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 198,
           "stanza": 2
         }
       ]
@@ -712,57 +752,57 @@
         },
         {
           "text": "On the Feast of Stephen",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "When the snow lay round about",
           "startBeat": 8,
           "stanza": 1
         },
         {
-          "text": "Deep and crisp and even",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "Brightly shone the moon that night",
+          "text": "When the snow lay round about",
           "startBeat": 16,
           "stanza": 1
         },
         {
+          "text": "Deep and crisp and even",
+          "startBeat": 24,
+          "stanza": 1
+        },
+        {
+          "text": "Brightly shone the moon that night",
+          "startBeat": 32,
+          "stanza": 1
+        },
+        {
           "text": "Though the frost was cruel",
-          "startBeat": 20,
+          "startBeat": 40,
           "stanza": 1
         },
         {
           "text": "When a poor man came in sight",
-          "startBeat": 24,
+          "startBeat": 48,
           "stanza": 2
         },
         {
           "text": "Gathering winter fuel",
-          "startBeat": 28,
+          "startBeat": 56,
           "stanza": 2
         },
         {
           "text": "Hither, page, and stand by me",
-          "startBeat": 32,
+          "startBeat": 64,
           "stanza": 2
         },
         {
           "text": "If thou know’st it, telling",
-          "startBeat": 36,
+          "startBeat": 72,
           "stanza": 2
         },
         {
           "text": "Yonder peasant, who is he",
-          "startBeat": 40,
+          "startBeat": 80,
           "stanza": 2
         },
         {
           "text": "Where and what his dwelling",
-          "startBeat": 44,
+          "startBeat": 88,
           "stanza": 2
         }
       ]
