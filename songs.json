@@ -93,6 +93,46 @@
           "text": "A sleighing song tonight",
           "startBeat": 120,
           "stanza": 2
+        },
+        {
+          "text": "Jingle bells, jingle bells",
+          "startBeat": 128,
+          "stanza": 3
+        },
+        {
+          "text": "Jingle all the way",
+          "startBeat": 136,
+          "stanza": 3
+        },
+        {
+          "text": "Oh, what fun it is to ride",
+          "startBeat": 144,
+          "stanza": 3
+        },
+        {
+          "text": "In a one-horse open sleigh, hey",
+          "startBeat": 152,
+          "stanza": 3
+        },
+        {
+          "text": "Jingle bells, jingle bells",
+          "startBeat": 160,
+          "stanza": 3
+        },
+        {
+          "text": "Jingle all the way",
+          "startBeat": 168,
+          "stanza": 3
+        },
+        {
+          "text": "Oh, what fun it is to ride",
+          "startBeat": 176,
+          "stanza": 3
+        },
+        {
+          "text": "In a one-horse open sleigh",
+          "startBeat": 184,
+          "stanza": 3
         }
       ]
     },
@@ -207,57 +247,57 @@
         },
         {
           "text": "We wish you a Merry Christmas",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "We wish you a Merry Christmas",
           "startBeat": 8,
           "stanza": 1
         },
         {
-          "text": "And a happy New Year",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "Good tidings we bring",
+          "text": "We wish you a Merry Christmas",
           "startBeat": 16,
           "stanza": 1
         },
         {
+          "text": "And a happy New Year",
+          "startBeat": 24,
+          "stanza": 1
+        },
+        {
+          "text": "Good tidings we bring",
+          "startBeat": 32,
+          "stanza": 1
+        },
+        {
           "text": "To you and your kin",
-          "startBeat": 20,
+          "startBeat": 40,
           "stanza": 1
         },
         {
           "text": "We wish you a Merry Christmas",
-          "startBeat": 24,
+          "startBeat": 48,
           "stanza": 2
         },
         {
           "text": "And a happy New Year",
-          "startBeat": 28,
+          "startBeat": 56,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 32,
+          "startBeat": 64,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 36,
+          "startBeat": 72,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 40,
+          "startBeat": 80,
           "stanza": 2
         },
         {
           "text": "And bring it right here",
-          "startBeat": 44,
+          "startBeat": 88,
           "stanza": 2
         }
       ]
