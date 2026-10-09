@@ -527,13 +527,13 @@
           "stanza": 2
         },
         {
-          "text": "Sing all ye citizens",
+          "text": "Sing all ye",
           "startBeat": 100,
           "stanza": 2
         },
         {
-          "text": "Of heaven above",
-          "startBeat": 108,
+          "text": "Citizens of heaven above",
+          "startBeat": 104,
           "stanza": 2
         },
         {
@@ -548,22 +548,22 @@
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 132,
+          "startBeat": 130,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 140,
+          "startBeat": 138,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 148,
+          "startBeat": 146,
           "stanza": 2
         },
         {
           "text": "Christ the Lord",
-          "startBeat": 160,
+          "startBeat": 156,
           "stanza": 2
         }
       ]
