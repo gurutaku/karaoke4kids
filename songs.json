@@ -467,7 +467,7 @@
       "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
       "lyrics": [
         {
-          "text": "O come, all ye faithful",
+          "text": "O come all ye faithful",
           "startBeat": 0,
           "stanza": 1
         },
@@ -497,17 +497,17 @@
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him",
+          "text": "O come let us adore Him",
           "startBeat": 50,
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him",
+          "text": "O come let us adore Him",
           "startBeat": 58,
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him",
+          "text": "O come let us adore Him",
           "startBeat": 66,
           "stanza": 1
         },
@@ -517,33 +517,38 @@
           "stanza": 1
         },
         {
-          "text": "Sing, choirs of angels",
+          "text": "Sing choirs of angels",
           "startBeat": 84,
           "stanza": 2
         },
         {
           "text": "Sing in exultation",
-          "startBeat": 94,
+          "startBeat": 92,
           "stanza": 2
         },
         {
-          "text": "Sing, all ye citizens",
-          "startBeat": 104,
+          "text": "Sing all ye citizens",
+          "startBeat": 100,
           "stanza": 2
         },
         {
           "text": "Of heaven above",
-          "startBeat": 114,
+          "startBeat": 108,
           "stanza": 2
         },
         {
           "text": "Glory to God",
-          "startBeat": 124,
+          "startBeat": 116,
           "stanza": 2
         },
         {
           "text": "All glory in the highest",
-          "startBeat": 134,
+          "startBeat": 124,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 132,
           "stanza": 2
         },
         {
@@ -553,17 +558,12 @@
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 150,
-          "stanza": 2
-        },
-        {
-          "text": "O come, let us adore Him",
-          "startBeat": 160,
+          "startBeat": 148,
           "stanza": 2
         },
         {
           "text": "Christ the Lord",
-          "startBeat": 173,
+          "startBeat": 160,
           "stanza": 2
         }
       ]
