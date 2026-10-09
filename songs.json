@@ -488,12 +488,17 @@
         },
         {
           "text": "Come and behold Him",
-          "startBeat": 40,
+          "startBeat": 35,
           "stanza": 1
         },
         {
           "text": "Born the King of angels",
-          "startBeat": 45,
+          "startBeat": 40,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 43,
           "stanza": 1
         },
         {
@@ -507,13 +512,8 @@
           "stanza": 1
         },
         {
-          "text": "O come, let us adore Him",
-          "startBeat": 58,
-          "stanza": 1
-        },
-        {
           "text": "Christ the Lord",
-          "startBeat": 65,
+          "startBeat": 60,
           "stanza": 1
         },
         {
