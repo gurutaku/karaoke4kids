@@ -473,57 +473,57 @@
         },
         {
           "text": "O come ye, O come ye to Bethlehem",
-          "startBeat": 16,
+          "startBeat": 18,
           "stanza": 1
         },
         {
           "text": "Come and behold Him, born the King of angels",
-          "startBeat": 32,
+          "startBeat": 36,
           "stanza": 1
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 48,
+          "startBeat": 54,
           "stanza": 1
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 64,
+          "startBeat": 72,
           "stanza": 1
         },
         {
           "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 80,
+          "startBeat": 90,
           "stanza": 1
         },
         {
           "text": "Sing, choirs of angels, sing in exultation",
-          "startBeat": 96,
+          "startBeat": 108,
           "stanza": 2
         },
         {
           "text": "Sing, all ye citizens of heaven above",
-          "startBeat": 112,
+          "startBeat": 126,
           "stanza": 2
         },
         {
           "text": "Glory to God, all glory in the highest",
-          "startBeat": 128,
-          "stanza": 2
-        },
-        {
-          "text": "O come, let us adore Him",
           "startBeat": 144,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 160,
+          "startBeat": 162,
+          "stanza": 2
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 180,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 176,
+          "startBeat": 198,
           "stanza": 2
         }
       ]
