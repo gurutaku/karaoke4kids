@@ -209,22 +209,22 @@
         },
         {
           "text": "Follow me in merry measure",
-          "startBeat": 80,
+          "startBeat": 96,
           "stanza": 2
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 88,
+          "startBeat": 104,
           "stanza": 2
         },
         {
           "text": "While I tell of Yule-tide treasure",
-          "startBeat": 80,
+          "startBeat": 112,
           "stanza": 2
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
-          "startBeat": 88,
+          "startBeat": 120,
           "stanza": 2
         }
       ]
@@ -247,57 +247,57 @@
         },
         {
           "text": "We wish you a Merry Christmas",
-          "startBeat": 8,
+          "startBeat": 6,
           "stanza": 1
         },
         {
           "text": "We wish you a Merry Christmas",
-          "startBeat": 16,
+          "startBeat": 12,
           "stanza": 1
         },
         {
           "text": "And a happy New Year",
-          "startBeat": 24,
+          "startBeat": 18,
           "stanza": 1
         },
         {
           "text": "Good tidings we bring",
-          "startBeat": 32,
+          "startBeat": 24,
           "stanza": 1
         },
         {
           "text": "To you and your kin",
-          "startBeat": 40,
+          "startBeat": 30,
           "stanza": 1
         },
         {
           "text": "We wish you a Merry Christmas",
-          "startBeat": 48,
+          "startBeat": 36,
           "stanza": 2
         },
         {
           "text": "And a happy New Year",
-          "startBeat": 56,
+          "startBeat": 42,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 64,
+          "startBeat": 48,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 72,
+          "startBeat": 54,
           "stanza": 2
         },
         {
           "text": "Oh, bring us some figgy pudding",
-          "startBeat": 80,
+          "startBeat": 60,
           "stanza": 2
         },
         {
           "text": "And bring it right here",
-          "startBeat": 88,
+          "startBeat": 66,
           "stanza": 2
         }
       ]
@@ -320,57 +320,57 @@
         },
         {
           "text": "Was to certain poor shepherds in fields as they lay",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "In fields where they lay keeping their sheep",
           "startBeat": 8,
           "stanza": 1
         },
         {
-          "text": "On a cold winter’s night that was so deep",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "Noel, Noel, Noel, Noel",
+          "text": "In fields where they lay keeping their sheep",
           "startBeat": 16,
           "stanza": 1
         },
         {
+          "text": "On a cold winter’s night that was so deep",
+          "startBeat": 24,
+          "stanza": 1
+        },
+        {
+          "text": "Noel, Noel, Noel, Noel",
+          "startBeat": 32,
+          "stanza": 1
+        },
+        {
           "text": "Born is the King of Israel",
-          "startBeat": 20,
+          "startBeat": 40,
           "stanza": 1
         },
         {
           "text": "They looked up and saw a star",
-          "startBeat": 24,
+          "startBeat": 48,
           "stanza": 2
         },
         {
           "text": "Shining in the east beyond them far",
-          "startBeat": 28,
+          "startBeat": 56,
           "stanza": 2
         },
         {
           "text": "And to the earth it gave great light",
-          "startBeat": 32,
+          "startBeat": 64,
           "stanza": 2
         },
         {
           "text": "And so it continued both day and night",
-          "startBeat": 36,
+          "startBeat": 72,
           "stanza": 2
         },
         {
           "text": "Noel, Noel, Noel, Noel",
-          "startBeat": 40,
+          "startBeat": 80,
           "stanza": 2
         },
         {
           "text": "Born is the King of Israel",
-          "startBeat": 44,
+          "startBeat": 88,
           "stanza": 2
         }
       ]
