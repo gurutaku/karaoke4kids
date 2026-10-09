@@ -565,6 +565,106 @@
           "text": "Christ the Lord",
           "startBeat": 156,
           "stanza": 2
+        },
+        {
+          "text": "O come all ye faithful",
+          "startBeat": 0,
+          "stanza": 3
+        },
+        {
+          "text": "Joyful and triumphant",
+          "startBeat": 10,
+          "stanza": 3
+        },
+        {
+          "text": "O come ye",
+          "startBeat": 18,
+          "stanza": 3
+        },
+        {
+          "text": "O come ye to Bethlehem",
+          "startBeat": 22,
+          "stanza": 3
+        },
+        {
+          "text": "Come and behold Him",
+          "startBeat": 35,
+          "stanza": 3
+        },
+        {
+          "text": "Born the King of angels",
+          "startBeat": 43,
+          "stanza": 3
+        },
+        {
+          "text": "O come let us adore Him",
+          "startBeat": 50,
+          "stanza": 3
+        },
+        {
+          "text": "O come let us adore Him",
+          "startBeat": 58,
+          "stanza": 3
+        },
+        {
+          "text": "O come let us adore Him",
+          "startBeat": 66,
+          "stanza": 3
+        },
+        {
+          "text": "Christ the Lord",
+          "startBeat": 74,
+          "stanza": 3
+        },
+        {
+          "text": "Sing choirs of angels",
+          "startBeat": 84,
+          "stanza": 4
+        },
+        {
+          "text": "Sing in exultation",
+          "startBeat": 92,
+          "stanza": 4
+        },
+        {
+          "text": "Sing all ye",
+          "startBeat": 100,
+          "stanza": 4
+        },
+        {
+          "text": "Citizens of heaven above",
+          "startBeat": 104,
+          "stanza": 4
+        },
+        {
+          "text": "Glory to God",
+          "startBeat": 116,
+          "stanza": 4
+        },
+        {
+          "text": "All glory in the highest",
+          "startBeat": 124,
+          "stanza": 4
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 130,
+          "stanza": 4
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 138,
+          "stanza": 4
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 146,
+          "stanza": 4
+        },
+        {
+          "text": "Christ the Lord",
+          "startBeat": 156,
+          "stanza": 4
         }
       ]
     },
