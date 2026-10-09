@@ -473,57 +473,57 @@
         },
         {
           "text": "O come ye, O come ye to Bethlehem",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "Come and behold Him, born the King of angels",
-          "startBeat": 8,
-          "stanza": 1
-        },
-        {
-          "text": "O come, let us adore Him",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "O come, let us adore Him",
           "startBeat": 16,
           "stanza": 1
         },
         {
+          "text": "Come and behold Him, born the King of angels",
+          "startBeat": 32,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 48,
+          "stanza": 1
+        },
+        {
+          "text": "O come, let us adore Him",
+          "startBeat": 64,
+          "stanza": 1
+        },
+        {
           "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 20,
+          "startBeat": 80,
           "stanza": 1
         },
         {
           "text": "Sing, choirs of angels, sing in exultation",
-          "startBeat": 24,
+          "startBeat": 96,
           "stanza": 2
         },
         {
           "text": "Sing, all ye citizens of heaven above",
-          "startBeat": 28,
+          "startBeat": 112,
           "stanza": 2
         },
         {
           "text": "Glory to God, all glory in the highest",
-          "startBeat": 32,
+          "startBeat": 128,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 36,
+          "startBeat": 144,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him",
-          "startBeat": 40,
+          "startBeat": 160,
           "stanza": 2
         },
         {
           "text": "O come, let us adore Him, Christ the Lord",
-          "startBeat": 44,
+          "startBeat": 176,
           "stanza": 2
         }
       ]
