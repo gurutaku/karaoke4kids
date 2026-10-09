@@ -15,65 +15,85 @@
       "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
       "lyrics": [
         {
-          "text": "Dashing through the snow",
+          "text": "Jingle bells, jingle bells",
           "startBeat": 0,
           "stanza": 1
         },
         {
-          "text": "In a one-horse open sleigh",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "O’er the fields we go",
+          "text": "Jingle all the way",
           "startBeat": 8,
           "stanza": 1
         },
         {
-          "text": "Laughing all the way",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "Bells on bobtails ring",
+          "text": "Oh, what fun it is to ride",
           "startBeat": 16,
           "stanza": 1
         },
         {
-          "text": "Making spirits bright",
-          "startBeat": 20,
-          "stanza": 1
-        },
-        {
-          "text": "What fun it is to ride and sing",
+          "text": "In a one-horse open sleigh, hey",
           "startBeat": 24,
-          "stanza": 2
-        },
-        {
-          "text": "A sleighing song tonight",
-          "startBeat": 28,
-          "stanza": 2
+          "stanza": 1
         },
         {
           "text": "Jingle bells, jingle bells",
           "startBeat": 32,
-          "stanza": 2
+          "stanza": 1
         },
         {
           "text": "Jingle all the way",
-          "startBeat": 36,
-          "stanza": 2
+          "startBeat": 40,
+          "stanza": 1
         },
         {
           "text": "Oh, what fun it is to ride",
-          "startBeat": 40,
+          "startBeat": 48,
+          "stanza": 1
+        },
+        {
+          "text": "In a one-horse open sleigh",
+          "startBeat": 56,
+          "stanza": 1
+        },
+        {
+          "text": "Dashing through the snow",
+          "startBeat": 64,
           "stanza": 2
         },
         {
           "text": "In a one-horse open sleigh",
-          "startBeat": 44,
+          "startBeat": 72,
           "stanza": 2
-        }
+        },
+        {
+          "text": "O’er the fields we go",
+          "startBeat": 80,
+          "stanza": 2
+        },
+        {
+          "text": "Laughing all the way",
+          "startBeat": 88,
+          "stanza": 2
+        },
+        {
+          "text": "Bells on bobtails ring",
+          "startBeat": 96,
+          "stanza": 2
+        },
+        {
+          "text": "Making spirits bright",
+          "startBeat": 104,
+          "stanza": 2
+        },
+        {
+          "text": "What fun it is to ride and sing",
+          "startBeat": 112,
+          "stanza": 2
+        },
+        {
+          "text": "A sleighing song tonight",
+          "startBeat": 120,
+          "stanza": 2
+        },
       ]
     },
     {
@@ -120,12 +140,12 @@
         {
           "text": "Troll the ancient Yuletide carol",
           "startBeat": 48,
-          "stanza": 2
+          "stanza": 1
         },
         {
           "text": "Fa-la-la-la-la, la-la-la-la",
           "startBeat": 56,
-          "stanza": 2
+          "stanza": 1
         },
         {
           "text": "See the blazing Yule before us",
@@ -139,6 +159,26 @@
         },
         {
           "text": "Strike the harp and join the chorus",
+          "startBeat": 80,
+          "stanza": 2
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 88,
+          "stanza": 2
+        },
+        {
+          "text": "Follow me in merry measure",
+          "startBeat": 80,
+          "stanza": 2
+        },
+        {
+          "text": "Fa-la-la-la-la, la-la-la-la",
+          "startBeat": 88,
+          "stanza": 2
+        },
+        {
+          "text": "While I tell of Yule-tide treasure",
           "startBeat": 80,
           "stanza": 2
         },
