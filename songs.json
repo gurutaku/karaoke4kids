@@ -834,97 +834,97 @@
     },
     {
       "text": "Glory to the newborn King",
-      "startBeat": 4,
-      "stanza": 1
-    },
-    {
-      "text": "Peace on earth and mercy mild",
       "startBeat": 8,
       "stanza": 1
     },
     {
-      "text": "God and sinners reconciled",
-      "startBeat": 12,
-      "stanza": 1
-    },
-    {
-      "text": "Joyful, all ye nations rise",
+      "text": "Peace on earth and mercy mild",
       "startBeat": 16,
       "stanza": 1
     },
     {
-      "text": "Join the triumph of the skies",
-      "startBeat": 20,
-      "stanza": 1
-    },
-    {
-      "text": "With the angelic host proclaim",
+      "text": "God and sinners reconciled",
       "startBeat": 24,
       "stanza": 1
     },
     {
-      "text": "Christ is born in Bethlehem",
-      "startBeat": 28,
-      "stanza": 1
-    },
-    {
-      "text": "Hark! The herald angels sing",
+      "text": "Joyful, all ye nations rise",
       "startBeat": 32,
       "stanza": 1
     },
     {
+      "text": "Join the triumph of the skies",
+      "startBeat": 40,
+      "stanza": 1
+    },
+    {
+      "text": "With the angelic host proclaim",
+      "startBeat": 48,
+      "stanza": 1
+    },
+    {
+      "text": "Christ is born in Bethlehem",
+      "startBeat": 56,
+      "stanza": 1
+    },
+    {
+      "text": "Hark! The herald angels sing",
+      "startBeat": 64,
+      "stanza": 1
+    },
+    {
       "text": "Glory to the newborn King",
-      "startBeat": 36,
+      "startBeat": 72,
       "stanza": 1
     },
     {
       "text": "Christ, by highest heaven adored",
-      "startBeat": 40,
+      "startBeat": 80,
       "stanza": 2
     },
     {
       "text": "Christ, the everlasting Lord",
-      "startBeat": 44,
+      "startBeat": 88,
       "stanza": 2
     },
     {
       "text": "Late in time behold Him come",
-      "startBeat": 48,
+      "startBeat": 96,
       "stanza": 2
     },
     {
       "text": "Offspring of a virgin's womb",
-      "startBeat": 52,
+      "startBeat": 104,
       "stanza": 2
     },
     {
       "text": "Veiled in flesh the Godhead see",
-      "startBeat": 56,
+      "startBeat": 112,
       "stanza": 2
     },
     {
       "text": "Hail the incarnate Deity",
-      "startBeat": 60,
+      "startBeat": 120,
       "stanza": 2
     },
     {
       "text": "Pleased as man with man to dwell",
-      "startBeat": 64,
+      "startBeat": 128,
       "stanza": 2
     },
     {
       "text": "Jesus, our Emmanuel",
-      "startBeat": 68,
+      "startBeat": 136,
       "stanza": 2
     },
     {
       "text": "Hark! The herald angels sing",
-      "startBeat": 72,
+      "startBeat": 144,
       "stanza": 2
     },
     {
       "text": "Glory to the newborn King",
-      "startBeat": 76,
+      "startBeat": 152,
       "stanza": 2
     }
   ]
