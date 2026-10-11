@@ -567,33 +567,38 @@
           "stanza": 2
         },
         {
-          "text": "O come all ye faithful",
+          "text": "Yea Lord we greet thee",
           "startBeat": 162,
           "stanza": 3
         },
         {
-          "text": "Joyful and triumphant",
-          "startBeat": 172,
+          "text": "Born this happy morning",
+          "startBeat": 170,
           "stanza": 3
         },
         {
-          "text": "O come ye",
-          "startBeat": 180,
+          "text": "Jesus to thee",
+          "startBeat": 178,
           "stanza": 3
         },
         {
-          "text": "O come ye to Bethlehem",
-          "startBeat": 184,
+          "text": "Be all glory giv’n",
+          "startBeat": 182,
           "stanza": 3
         },
         {
-          "text": "Come and behold Him",
-          "startBeat": 197,
+          "text": "Word of the Father",
+          "startBeat": 194,
           "stanza": 3
         },
         {
-          "text": "Born the King of angels",
-          "startBeat": 209,
+          "text": "Late in flesh appearing",
+          "startBeat": 202,
+          "stanza": 3
+        },
+        {
+          "text": "O come let us adore Him",
+          "startBeat": 208,
           "stanza": 3
         },
         {
@@ -607,13 +612,8 @@
           "stanza": 3
         },
         {
-          "text": "O come let us adore Him",
-          "startBeat": 232,
-          "stanza": 3
-        },
-        {
           "text": "Christ the Lord",
-          "startBeat": 240,
+          "startBeat": 234,
           "stanza": 3
         },
         {
