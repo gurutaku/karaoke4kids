@@ -725,49 +725,94 @@
       "stanza": 1
     },
     {
-      "text": "From God our heavenly Father",
+      "text": "In Bethlehem in Israel",
       "startBeat": 80,
       "stanza": 2
     },
     {
-      "text": "A blessed angel came",
+      "text": "This blessed Babe was born",
       "startBeat": 88,
       "stanza": 2
     },
     {
-      "text": "And unto certain shepherds",
+      "text": "And laid within a manger",
       "startBeat": 96,
       "stanza": 2
     },
     {
-      "text": "Brought tidings of the same",
-      "startBeat": 97,
-      "stanza": 2
-    },
-    {
-      "text": "How that in Bethlehem was born",
+      "text": "Upon this blessed morn",
       "startBeat": 104,
       "stanza": 2
     },
     {
-      "text": "The Son of God by name",
+      "text": "To which His Mother Mary",
+      "startBeat": 112,
+      "stanza": 2
+    },
+    {
+      "text": "Did nothing take in scorn",
       "startBeat": 112,
       "stanza": 2
     },
     {
       "text": "O tidings of comfort and joy",
-      "startBeat": 120,
-      "stanza": 2
+      "startBeat": 128,
+      "stanza": 3
     },
     {
       "text": "Comfort and joy",
-      "startBeat": 128,
-      "stanza": 2
+      "startBeat": 138,
+      "stanza": 3
     },
     {
       "text": "O tidings of comfort and joy",
-      "startBeat": 136,
-      "stanza": 2
+      "startBeat": 142,
+      "stanza": 3
+    },
+    {
+      "text": "From God our heavenly Father",
+      "startBeat": 80,
+      "stanza": 3
+    },
+    {
+      "text": "A blessed angel came",
+      "startBeat": 88,
+      "stanza": 3
+    },
+    {
+      "text": "And unto certain shepherds",
+      "startBeat": 96,
+      "stanza": 3
+    },
+    {
+      "text": "Brought tidings of the same",
+      "startBeat": 104,
+      "stanza": 3
+    },
+    {
+      "text": "How that in Bethlehem was born",
+      "startBeat": 112,
+      "stanza": 3
+    },
+    {
+      "text": "The Son of God by name",
+      "startBeat": 120,
+      "stanza": 3
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 128,
+      "stanza": 3
+    },
+    {
+      "text": "Comfort and joy",
+      "startBeat": 138,
+      "stanza": 3
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 142,
+      "stanza": 3
     }
   ]
 },
