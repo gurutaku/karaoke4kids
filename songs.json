@@ -618,32 +618,32 @@
         },
         {
           "text": "Sing choirs of angels",
-          "startBeat": 250,
+          "startBeat": 254,
           "stanza": 4
         },
         {
           "text": "Sing in exultation",
-          "startBeat": 258,
+          "startBeat": 262,
           "stanza": 4
         },
         {
           "text": "Sing all ye",
-          "startBeat": 266,
-          "stanza": 4
-        },
-        {
-          "text": "Citizens of heaven above",
           "startBeat": 270,
           "stanza": 4
         },
         {
+          "text": "Citizens of heaven above",
+          "startBeat": 274,
+          "stanza": 4
+        },
+        {
           "text": "Glory to God",
-          "startBeat": 282,
+          "startBeat": 280,
           "stanza": 4
         },
         {
           "text": "All glory in the highest",
-          "startBeat": 290,
+          "startBeat": 288,
           "stanza": 4
         },
         {
@@ -663,7 +663,7 @@
         },
         {
           "text": "Christ the Lord",
-          "startBeat": 322,
+          "startBeat": 320,
           "stanza": 4
         }
       ]
