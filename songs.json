@@ -669,171 +669,221 @@
       ]
     },
     {
-      "id": "we-three-kings",
-      "title": "We Three Kings",
-      "midi": "Three_Kings_of_Orient.mid",
-      "emoji": "👑",
-      "theme": "sky",
-      "bpmHint": 100,
-      "description": "Follow the star with the three wise men",
-      "mood": "Star of wonder",
-      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
-      "lyrics": [
-        {
-          "text": "We three kings of Orient are",
-          "startBeat": 0,
-          "stanza": 1
-        },
-        {
-          "text": "Bearing gifts we traverse afar",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "Field and fountain, moor and mountain",
-          "startBeat": 8,
-          "stanza": 1
-        },
-        {
-          "text": "Following yonder star",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "O star of wonder, star of night",
-          "startBeat": 16,
-          "stanza": 1
-        },
-        {
-          "text": "Star with royal beauty bright",
-          "startBeat": 20,
-          "stanza": 1
-        },
-        {
-          "text": "Westward leading, still proceeding",
-          "startBeat": 24,
-          "stanza": 2
-        },
-        {
-          "text": "Guide us to thy perfect light",
-          "startBeat": 28,
-          "stanza": 2
-        },
-        {
-          "text": "Born a King on Bethlehem’s plain",
-          "startBeat": 32,
-          "stanza": 2
-        },
-        {
-          "text": "Gold I bring to crown Him again",
-          "startBeat": 36,
-          "stanza": 2
-        },
-        {
-          "text": "King forever, ceasing never",
-          "startBeat": 40,
-          "stanza": 2
-        },
-        {
-          "text": "Over us all to reign",
-          "startBeat": 44,
-          "stanza": 2
-        },
-        {
-          "text": "O star of wonder, star of night",
-          "startBeat": 48,
-          "stanza": 2
-        },
-        {
-          "text": "Star with royal beauty bright",
-          "startBeat": 52,
-          "stanza": 2
-        },
-        {
-          "text": "Westward leading, still proceeding",
-          "startBeat": 56,
-          "stanza": 2
-        },
-        {
-          "text": "Guide us to thy perfect light",
-          "startBeat": 60,
-          "stanza": 2
-        }
-      ]
+  "id": "god-rest-you-merry-gentlemen",
+  "title": "God Rest You Merry, Gentlemen",
+  "midi": "God_rest_you_merry_Gentlemen.mid",
+  "emoji": "🕯️",
+  "theme": "sky",
+  "bpmHint": 100,
+  "description": "Share the joyful message of Christmas",
+  "mood": "Joyful and triumphant",
+  "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+  "lyrics": [
+    {
+      "text": "God rest you merry, gentlemen",
+      "startBeat": 0,
+      "stanza": 1
     },
     {
-      "id": "away-in-a-manger",
-      "title": "Away in a Manger",
-      "midi": "Away_in_a_Manger_Kirkpatrick_melody.mid",
-      "emoji": "🌙",
-      "theme": "peach",
-      "bpmHint": 84,
-      "description": "A gentle Christmas lullaby",
-      "mood": "Gentle lullaby",
-      "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
-      "lyrics": [
-        {
-          "text": "Away in a manger, no crib for a bed",
-          "startBeat": 0,
-          "stanza": 1
-        },
-        {
-          "text": "The little Lord Jesus laid down His sweet head",
-          "startBeat": 4,
-          "stanza": 1
-        },
-        {
-          "text": "The stars in the bright sky looked down where He lay",
-          "startBeat": 8,
-          "stanza": 1
-        },
-        {
-          "text": "The little Lord Jesus asleep on the hay",
-          "startBeat": 12,
-          "stanza": 1
-        },
-        {
-          "text": "The cattle are lowing, the baby awakes",
-          "startBeat": 16,
-          "stanza": 1
-        },
-        {
-          "text": "But little Lord Jesus, no crying He makes",
-          "startBeat": 20,
-          "stanza": 1
-        },
-        {
-          "text": "I love Thee, Lord Jesus, look down from the sky",
-          "startBeat": 24,
-          "stanza": 2
-        },
-        {
-          "text": "And stay by my cradle till morning is nigh",
-          "startBeat": 28,
-          "stanza": 2
-        },
-        {
-          "text": "Be near me, Lord Jesus, I ask Thee to stay",
-          "startBeat": 32,
-          "stanza": 2
-        },
-        {
-          "text": "Close by me forever, and love me, I pray",
-          "startBeat": 36,
-          "stanza": 2
-        },
-        {
-          "text": "Bless all the dear children in Thy tender care",
-          "startBeat": 40,
-          "stanza": 2
-        },
-        {
-          "text": "And fit us for heaven, to live with Thee there",
-          "startBeat": 44,
-          "stanza": 2
-        }
-      ]
+      "text": "Let nothing you dismay",
+      "startBeat": 4,
+      "stanza": 1
     },
+    {
+      "text": "Remember Christ our Savior",
+      "startBeat": 8,
+      "stanza": 1
+    },
+    {
+      "text": "Was born on Christmas Day",
+      "startBeat": 12,
+      "stanza": 1
+    },
+    {
+      "text": "To save us all from Satan's power",
+      "startBeat": 16,
+      "stanza": 1
+    },
+    {
+      "text": "When we were gone astray",
+      "startBeat": 20,
+      "stanza": 1
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 24,
+      "stanza": 1
+    },
+    {
+      "text": "Comfort and joy",
+      "startBeat": 28,
+      "stanza": 1
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 32,
+      "stanza": 1
+    },
+    {
+      "text": "From God our heavenly Father",
+      "startBeat": 36,
+      "stanza": 2
+    },
+    {
+      "text": "A blessed angel came",
+      "startBeat": 40,
+      "stanza": 2
+    },
+    {
+      "text": "And unto certain shepherds",
+      "startBeat": 44,
+      "stanza": 2
+    },
+    {
+      "text": "Brought tidings of the same",
+      "startBeat": 48,
+      "stanza": 2
+    },
+    {
+      "text": "How that in Bethlehem was born",
+      "startBeat": 52,
+      "stanza": 2
+    },
+    {
+      "text": "The Son of God by name",
+      "startBeat": 56,
+      "stanza": 2
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 60,
+      "stanza": 2
+    },
+    {
+      "text": "Comfort and joy",
+      "startBeat": 64,
+      "stanza": 2
+    },
+    {
+      "text": "O tidings of comfort and joy",
+      "startBeat": 68,
+      "stanza": 2
+    }
+  ]
+},
+{
+  "id": "hark-the-herald-angels-sing",
+  "title": "Hark! The Herald Angels Sing",
+  "midi": "Hark_The_Herald_Angels_Sing.mid",
+  "emoji": "👼",
+  "theme": "peach",
+  "bpmHint": 100,
+  "description": "Celebrate the angels' joyful announcement",
+  "mood": "Festive and glorious",
+  "timingNote": "Starter cue points: each lyric line begins four quarter-note beats after the previous one. Adjust startBeat to match the exact MIDI arrangement.",
+  "lyrics": [
+    {
+      "text": "Hark! The herald angels sing",
+      "startBeat": 0,
+      "stanza": 1
+    },
+    {
+      "text": "Glory to the newborn King",
+      "startBeat": 4,
+      "stanza": 1
+    },
+    {
+      "text": "Peace on earth and mercy mild",
+      "startBeat": 8,
+      "stanza": 1
+    },
+    {
+      "text": "God and sinners reconciled",
+      "startBeat": 12,
+      "stanza": 1
+    },
+    {
+      "text": "Joyful, all ye nations rise",
+      "startBeat": 16,
+      "stanza": 1
+    },
+    {
+      "text": "Join the triumph of the skies",
+      "startBeat": 20,
+      "stanza": 1
+    },
+    {
+      "text": "With the angelic host proclaim",
+      "startBeat": 24,
+      "stanza": 1
+    },
+    {
+      "text": "Christ is born in Bethlehem",
+      "startBeat": 28,
+      "stanza": 1
+    },
+    {
+      "text": "Hark! The herald angels sing",
+      "startBeat": 32,
+      "stanza": 1
+    },
+    {
+      "text": "Glory to the newborn King",
+      "startBeat": 36,
+      "stanza": 1
+    },
+    {
+      "text": "Christ, by highest heaven adored",
+      "startBeat": 40,
+      "stanza": 2
+    },
+    {
+      "text": "Christ, the everlasting Lord",
+      "startBeat": 44,
+      "stanza": 2
+    },
+    {
+      "text": "Late in time behold Him come",
+      "startBeat": 48,
+      "stanza": 2
+    },
+    {
+      "text": "Offspring of a virgin's womb",
+      "startBeat": 52,
+      "stanza": 2
+    },
+    {
+      "text": "Veiled in flesh the Godhead see",
+      "startBeat": 56,
+      "stanza": 2
+    },
+    {
+      "text": "Hail the incarnate Deity",
+      "startBeat": 60,
+      "stanza": 2
+    },
+    {
+      "text": "Pleased as man with man to dwell",
+      "startBeat": 64,
+      "stanza": 2
+    },
+    {
+      "text": "Jesus, our Emmanuel",
+      "startBeat": 68,
+      "stanza": 2
+    },
+    {
+      "text": "Hark! The herald angels sing",
+      "startBeat": 72,
+      "stanza": 2
+    },
+    {
+      "text": "Glory to the newborn King",
+      "startBeat": 76,
+      "stanza": 2
+    }
+  ]
+},
     {
       "id": "good-king-wenceslas",
       "title": "Good King Wenceslas",
