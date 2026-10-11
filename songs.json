@@ -721,27 +721,27 @@
     },
     {
       "text": "O tidings of comfort and joy",
-      "startBeat": 60,
+      "startBeat": 62,
       "stanza": 1
     },
     {
       "text": "From God our heavenly Father",
-      "startBeat": 72,
-      "stanza": 2
-    },
-    {
-      "text": "A blessed angel came",
       "startBeat": 80,
       "stanza": 2
     },
     {
-      "text": "And unto certain shepherds",
+      "text": "A blessed angel came",
       "startBeat": 88,
       "stanza": 2
     },
     {
-      "text": "Brought tidings of the same",
+      "text": "And unto certain shepherds",
       "startBeat": 96,
+      "stanza": 2
+    },
+    {
+      "text": "Brought tidings of the same",
+      "startBeat": 97,
       "stanza": 2
     },
     {
