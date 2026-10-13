@@ -7,9 +7,9 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-ERPMF4T7YG');
 </script>
+
 <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width,initial-scale=1,viewport-fit=cover'>
 <meta name='theme-color' content='#f3fbff'>
@@ -21,16 +21,19 @@
 </head>
 <body><div class='app'>
 <header class='topbar'><div class='brand'><div class='brand-mark'>♫</div><span>SingSprout</span></div><div class='top-pill'>❄ <span>8 Christmas sing-alongs</span></div></header>
-<section class='hero'><div><h1>Pick a carol.<br><span class='colorful'>Find your voice!</span></h1><p>Choose a Christmas favourite, follow the lyrics, and sing along to its MIDI arrangement.</p></div><div class='hero-art' aria-hidden='true'><div class='moon'></div><span class='snow s1'>❄</span><span class='snow s2'>✦</span><span class='snow s3'>❄</span><div class='tree'>🎄</div></div></section>
+<section class='hero'><div><div class='eyebrow'>Your own mini music studio</div><h1>Pick a carol.<br><span class='colorful'>Find your voice!</span></h1><p>Choose a Christmas favourite, follow the lyrics, and sing along to its MIDI arrangement. Add each MIDI file beside this page to enable synthesized music.</p></div><div class='hero-art' aria-hidden='true'><div class='moon'></div><span class='snow s1'>❄</span><span class='snow s2'>✦</span><span class='snow s3'>❄</span><div class='tree'>🎄</div></div></section>
 <section><div class='section-head'><div><h2>Choose your sing-along</h2><p class='section-note'>Eight traditional carols with editable lyrics timing.</p></div></div><div class='library-tools'><label class='search-wrap'><span>⌕</span><input class='search-input' id='songSearch' type='search' placeholder='Find a Christmas song…' aria-label='Search songs'></label><span class='song-count' id='songCount'>Loading…</span></div><div class='song-grid' id='songGrid' aria-label='Available songs'></div></section>
-<section class='stage'><div class='stage-head'><div class='now-playing'><div class='cover' id='coverEmoji'>🔔</div><div class='stage-title'><h2 id='stageSongTitle'>Loading songs…</h2><p id='stageSongMeta'>Traditional carol · MIDI accompaniment</p></div></div><div class='status' id='playStatus' role='status' aria-live='polite'><span class='status-dot'></span><span id='statusText'>Ready to sing</span></div></div><div class='stage-body'><div class='lyrics-area'><div class='lyrics-heading'><h3>🎤 Your lyrics</h3><span class='tiny-label'>Sing it your way!</span></div><div class='lyrics-window' id='lyricsWindow' tabindex='0' aria-label='Song lyrics'></div></div><aside class='controls-area'><h3 class='controls-heading'>🎵 Music controls</h3><div class='main-controls'><button class='primary-btn' id='playBtn'><span id='playIcon'>▶</span><span id='playLabel'>Start singing</span></button><button class='secondary-btn' id='stopBtn' aria-label='Stop and rewind' title='Stop and rewind'>■</button></div><div class='progress-wrap'><div class='progress-labels'><span id='elapsedText'>0:00</span><span id='durationText'>0:00</span></div><div class='progress-track' id='progressTrack' role='progressbar' aria-label='Song progress' aria-valuemin='0' aria-valuemax='100' aria-valuenow='0'><div class='progress-fill' id='progressFill'></div></div></div><div class='setting'><div class='setting-top'><label for='tempoSlider'>Playback speed</label><span class='setting-value' id='tempoValue'>100%</span></div><input id='tempoSlider' type='range' min='70' max='130' value='100'><div class='range-captions'><span>Chill 🐢</span><span>Party 🐇</span></div></div><div class='setting'><div class='setting-top'><label for='volumeSlider'>Music volume</label><span class='setting-value' id='volumeValue'>60%</span></div><input id='volumeSlider' type='range' min='0' max='100' value='60'></div><div class='warning' id='warningBox'></div><div class='tip'><span>💡</span><span>Music is synthesized from MIDI notes in your browser. The original instrument sounds are simplified.</span></div></aside></div></section>
-<p class='bottom-note'><strong>🎮 Gurutaku</strong> — Make Learning Fun.</p></div>
-<script>
+<section class='stage'><div class='stage-head'><div class='now-playing'><div class='cover' id='coverEmoji'>🔔</div><div class='stage-title'><h2 id='stageSongTitle'>Loading songs…</h2><p id='stageSongMeta'>Traditional carol · original MIDI accompaniment</p></div></div><div class='status' id='playStatus' role='status' aria-live='polite'><span class='status-dot'></span><span id='statusText'>Ready to sing</span></div></div><div class='stage-body'><div class='lyrics-area'><div class='lyrics-heading'><h3>🎤 Your lyrics</h3><span class='tiny-label'>Sing it your way!</span></div><div class='lyrics-window' id='lyricsWindow' tabindex='0' aria-label='Song lyrics'></div><div class='timing-note'>Line highlights follow the beat cues in <code>songs.json</code>. Adjust each line’s <code>startBeat</code> to match your exact MIDI arrangement.</div></div><aside class='controls-area'><h3 class='controls-heading'>🎵 Music controls</h3><div class='main-controls'><button class='primary-btn' id='playBtn'><span id='playIcon'>▶</span><span id='playLabel'>Start singing</span></button><button class='secondary-btn' id='stopBtn' aria-label='Stop and rewind' title='Stop and rewind'>■</button></div><div class='progress-wrap'><div class='progress-labels'><span id='elapsedText'>0:00</span><span id='durationText'>0:00</span></div><div class='progress-track' id='progressTrack' role='progressbar' aria-label='Song progress' aria-valuemin='0' aria-valuemax='100' aria-valuenow='0'><div class='progress-fill' id='progressFill'></div></div></div><div class='setting'><div class='setting-top'><label for='tempoSlider'>Playback speed</label><span class='setting-value' id='tempoValue'>100%</span></div><input id='tempoSlider' type='range' min='70' max='130' value='100'><div class='range-captions'><span>Chill 🐢</span><span>Party 🐇</span></div></div><div class='setting'><div class='setting-top'><label for='volumeSlider'>Music volume</label><span class='setting-value' id='volumeValue'>60%</span></div><input id='volumeSlider' type='range' min='0' max='100' value='60'></div><div class='warning' id='warningBox'></div><div class='tip'><span>💡</span><span>The original MIDI arrangement is played with sampled General MIDI instruments. Sound depends on the SoundFont used by the player. For best results, use a MIDI file arranged for the same verses shown here.</span></div></aside></div></section>
+<p class='bottom-note'>♥ Traditional carol texts and synthesized MIDI playback. Lyric beat cues are editable and may need adjustment for a particular MIDI version.</p></div>
+<script type="module">
+import { Sequencer, WorkletSynthesizer } from "https://esm.sh/spessasynth_lib@4.3.14";
 'use strict';
 (() => {
 const $ = id => document.getElementById(id);
-let songs = [], songIndex = 0, audioCtx = null, masterGain = null, activeNodes = [];
-let midiData = null, lineCues = [], startAt = 0, durationSec = 0, playing = false, paused = false, ended = false, rafId = 0, speed = 1, volume = .6, activeLine = -1;
+const SOUND_FONT_URL = 'https://spessasus.github.io/SpessaSynth/soundfonts/GeneralUserGS.sf3';
+const WORKLET_URL = 'https://cdn.jsdelivr.net/npm/spessasynth_lib@4.3.14/dist/spessasynth_processor.min.js';
+let songs = [], songIndex = 0, audioCtx = null, masterGain = null, synth = null, sequencer = null;
+let midiData = null, lineCues = [], durationSec = 0, playing = false, paused = false, ended = false, rafId = 0, speed = 1, volume = .6, activeLine = -1;
 let lyricOnly = false, lastError = '';
 const currentSong = () => songs[songIndex];
 const fmt = seconds => { const s = Math.max(0, Math.floor(seconds || 0)); return `${Math.floor(s/60)}:${String(s%60).padStart(2,'0')}`; };
@@ -57,8 +60,45 @@ function renderLyrics() {
 }
 function updateHeader() { const s=currentSong(); $('coverEmoji').textContent=s.emoji; $('stageSongTitle').textContent=s.title; $('stageSongMeta').textContent=`${s.mood} · MIDI file: ${s.midi}`; }
 function chooseSong(index) { haltAudio(); songIndex=index; midiData=null; lineCues=[]; playing=false; paused=false; ended=false; lyricOnly=false; durationSec=0; renderCards();renderLyrics();updateHeader();updateProgress(0);setStatus('Ready to sing');updatePlayButton();clearWarning(); }
-function haltAudio() { activeNodes.forEach(node=>{try{node.stop();}catch(e){} try{node.disconnect();}catch(e){}}); activeNodes=[]; if(rafId)cancelAnimationFrame(rafId);rafId=0; }
-function getContext() { if(!audioCtx){const Ctx=window.AudioContext||window.webkitAudioContext;if(!Ctx)throw new Error('Audio is not supported by this browser. Try a recent Chrome, Edge, or Safari.');audioCtx=new Ctx();masterGain=audioCtx.createGain();masterGain.gain.value=volume;masterGain.connect(audioCtx.destination);} return audioCtx; }
+function haltAudio() {
+    if (sequencer) {
+        try {
+            sequencer.pause();
+            sequencer.currentTime = 0;
+        } catch (e) {}
+    }
+    if (rafId) cancelAnimationFrame(rafId);
+    rafId = 0;
+}
+
+async function getPlayer() {
+    if (sequencer) return;
+
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContextClass) {
+        throw new Error('Audio is not supported by this browser. Try a recent Chrome, Edge, or Safari.');
+    }
+
+    audioCtx = new AudioContextClass();
+    masterGain = audioCtx.createGain();
+    masterGain.gain.value = volume;
+    masterGain.connect(audioCtx.destination);
+
+    // The processor and library use the same pinned release.
+    await audioCtx.audioWorklet.addModule(WORKLET_URL);
+    synth = new WorkletSynthesizer(audioCtx);
+    synth.connect(masterGain);
+
+    const response = await fetch(SOUND_FONT_URL, { cache: 'force-cache' });
+    if (!response.ok) {
+        throw new Error('Could not load the General MIDI instrument SoundFont. Check your internet connection and try again.');
+    }
+    const soundBank = await response.arrayBuffer();
+    await synth.soundBankManager.addSoundBank(soundBank, 'main');
+
+    sequencer = new Sequencer(synth);
+    sequencer.loopCount = 0;
+}
 function readU16(bytes,pos) { return (bytes[pos]<<8)|bytes[pos+1]; }
 function readU32(bytes,pos) { return (bytes[pos]*16777216)+(bytes[pos+1]<<16)+(bytes[pos+2]<<8)+bytes[pos+3]; }
 function readVar(bytes,state,end) { let value=0, count=0, byte; do { if(state.pos>=end)throw new Error('Unexpected end of MIDI data while reading event length.'); byte=bytes[state.pos++]; value=(value<<7)|(byte&127); if(++count>4)throw new Error('Invalid MIDI variable-length number.'); } while(byte&128); return value; }
@@ -90,33 +130,133 @@ function parseMidi(buffer) {
  let duration=0,totalNotes=0; for(const track of tracks){track.notes.forEach(n=>{n.time=tickToSeconds(n.tick);n.duration=Math.max(.05,tickToSeconds(n.endTick)-n.time);delete n.tick;delete n.endTick;duration=Math.max(duration,n.time+n.duration);totalNotes++;});}
  if(!totalNotes)throw new Error('This MIDI file has no playable notes.'); return {format,ppq,tracks,tempos,duration,totalNotes,tickToSeconds};
 }
-async function fetchMidi(song) { const response=await fetch(song.midi,{cache:'no-store'}); if(!response.ok)throw new Error(`Could not find ${song.midi}. Put that MIDI file in the same directory as index.html and songs.json.`);return parseMidi(await response.arrayBuffer()); }
+async function fetchMidi(song) {
+    const response = await fetch(song.midi, { cache: 'no-store' });
+    if (!response.ok) {
+        throw new Error(`Could not find ${song.midi}. Put the original MIDI file in the same directory as index.html and songs.json.`);
+    }
+    const buffer = await response.arrayBuffer();
+    return { buffer, parsed: parseMidi(buffer) };
+}
 function beatToSeconds(beat) { return midiData.tickToSeconds(Math.max(0,beat)*midiData.ppq); }
 function prepareTimeline(song) { lineCues=song.lyrics.map((line,index)=>({index,time:beatToSeconds(line.startBeat||0),text:line.text})); lineCues.sort((a,b)=>a.time-b.time); durationSec=Math.max(midiData.duration,(lineCues.length?lineCues[lineCues.length-1].time+2:0)); }
-function waveForProgram(program) { if(program>=40&&program<=55)return 'triangle'; if(program>=56&&program<=63)return 'sawtooth'; if(program>=64&&program<=79)return 'triangle'; if(program>=80&&program<=103)return 'square'; if(program>=104)return 'sine'; return 'sine'; }
-function synthMidiNote(note,when,duration,scale) {
- const ctx=audioCtx; const peak=Math.max(.001,Math.min(.24,volume*note.velocity*.19)); const dur=Math.max(.055,duration*scale); const release=Math.min(.18,Math.max(.045,dur*.18));
- if(note.percussion){const length=Math.max(.035,Math.min(.18,dur)), size=Math.max(1,Math.floor(ctx.sampleRate*length)); const buffer=ctx.createBuffer(1,size,ctx.sampleRate), data=buffer.getChannelData(0);for(let i=0;i<size;i++)data[i]=(Math.random()*2-1)*(1-i/size);const src=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),gain=ctx.createGain();src.buffer=buffer;filter.type=note.pitch<40?'lowpass':'highpass';filter.frequency.value=note.pitch<40?180:note.pitch>45?7500:2200;gain.gain.setValueAtTime(peak*1.8,when);gain.gain.exponentialRampToValueAtTime(.0001,when+length);src.connect(filter);filter.connect(gain);gain.connect(masterGain);src.start(when);src.stop(when+length+.01);activeNodes.push(src,gain,filter);return;}
- const osc=ctx.createOscillator(),gain=ctx.createGain();osc.type=waveForProgram(note.program);osc.frequency.setValueAtTime(440*Math.pow(2,(note.pitch-69)/12),when);const attack=Math.min(.035,dur*.18);gain.gain.setValueAtTime(.0001,when);gain.gain.linearRampToValueAtTime(peak,when+attack);gain.gain.setValueAtTime(peak,Math.max(when+attack,when+dur-release));gain.gain.exponentialRampToValueAtTime(.0001,when+dur+release);osc.connect(gain);gain.connect(masterGain);osc.start(when);osc.stop(when+dur+release+.02);activeNodes.push(osc,gain);
-}
-function scheduleNotes() { const scale=1/speed; startAt=audioCtx.currentTime+.12; midiData.tracks.forEach(track=>track.notes.forEach(note=>synthMidiNote(note,startAt+note.time*scale,note.duration,scale))); }
 async function startPlayback() {
- try {
-  clearWarning(); haltAudio(); playing=false;paused=false;ended=false; lyricOnly=false; getContext(); if(audioCtx.state!=='running')await audioCtx.resume(); midiData=await fetchMidi(currentSong()); prepareTimeline(currentSong()); scheduleNotes(); playing=true; setStatus(`Playing MIDI · ${midiData.totalNotes} notes`,true); updatePlayButton();updateProgress(0);renderFrame();
- } catch(e) { playing=false;paused=false;updatePlayButton();lastError=e.message||'Could not load the MIDI file.';setStatus('MIDI file needed');showWarning(lastError); }
+    try {
+        clearWarning();
+        haltAudio();
+        playing = false;
+        paused = false;
+        ended = false;
+        lyricOnly = false;
+        setStatus('Loading original MIDI…');
+        updatePlayButton();
+
+        await getPlayer();
+        if (audioCtx.state !== 'running') await audioCtx.resume();
+
+        const loaded = await fetchMidi(currentSong());
+        midiData = loaded.parsed;
+        prepareTimeline(currentSong());
+
+        sequencer.loadNewSongList([{
+            binary: loaded.buffer,
+            fileName: currentSong().title
+        }]);
+        sequencer.playbackRate = speed;
+        sequencer.play();
+
+        playing = true;
+        paused = false;
+        ended = false;
+        setStatus('Playing original MIDI arrangement', true);
+        updatePlayButton();
+        updateProgress(0);
+        renderFrame();
+    } catch (e) {
+        playing = false;
+        paused = false;
+        updatePlayButton();
+        lastError = e.message || 'Could not play the original MIDI file.';
+        setStatus('MIDI playback unavailable');
+        showWarning(lastError);
+    }
 }
+
 async function togglePlayback() {
- if(playing){playing=false;paused=true;if(audioCtx&&audioCtx.state==='running')await audioCtx.suspend();if(rafId)cancelAnimationFrame(rafId);rafId=0;setStatus('Paused — take a breath');updatePlayButton();return;}
- if(paused&&audioCtx&&midiData){try{await audioCtx.resume();playing=true;paused=false;setStatus('Music is playing',true);updatePlayButton();renderFrame();return;}catch(e){}}
- await startPlayback();
+    if (playing) {
+        if (sequencer) sequencer.pause();
+        playing = false;
+        paused = true;
+        if (rafId) cancelAnimationFrame(rafId);
+        rafId = 0;
+        setStatus('Paused — take a breath');
+        updatePlayButton();
+        return;
+    }
+
+    if (paused && sequencer && midiData) {
+        try {
+            if (audioCtx.state !== 'running') await audioCtx.resume();
+            sequencer.playbackRate = speed;
+            sequencer.play();
+            playing = true;
+            paused = false;
+            setStatus('Music is playing', true);
+            updatePlayButton();
+            renderFrame();
+            return;
+        } catch (e) {
+            // Reload the selected original MIDI if resume fails.
+        }
+    }
+    await startPlayback();
 }
-function stopAndRewind() { haltAudio();if(audioCtx&&audioCtx.state==='running')audioCtx.suspend().catch(()=>{});playing=false;paused=false;ended=false;highlight(0,false);updateProgress(0);setStatus('Ready to sing');updatePlayButton(); }
+
+function stopAndRewind() {
+    haltAudio();
+    playing = false;
+    paused = false;
+    ended = false;
+    highlight(0, false);
+    updateProgress(0);
+    setStatus('Ready to sing');
+    updatePlayButton();
+}
+
 function highlight(index,scroll=true) { $('lyricsWindow').querySelectorAll('.lyric-line').forEach((el,n)=>{el.classList.toggle('active',n===index);el.classList.toggle('done',n<index);if(n===index&&scroll)el.scrollIntoView({behavior:'smooth',block:'center'});});activeLine=index; }
-function renderFrame() { if(!playing||!audioCtx)return; const elapsed=Math.max(0,(audioCtx.currentTime-startAt)*speed); if(elapsed>=durationSec){playing=false;paused=false;ended=true;updateProgress(durationSec);highlight(currentSong().lyrics.length-1,false);setStatus('Wonderful singing! ✨');updatePlayButton();rafId=0;return;}let line=0;for(let i=0;i<lineCues.length;i++){if(lineCues[i].time<=elapsed)line=i;else break;}if(line!==activeLine)highlight(line,true);updateProgress(elapsed);rafId=requestAnimationFrame(renderFrame); }
+function renderFrame() {
+    if (!playing || !sequencer) return;
+
+    const elapsed = Math.max(0, Number(sequencer.currentTime) || 0);
+    const musicDuration = midiData ? midiData.duration : durationSec;
+    const finished = (!!sequencer.isFinished && elapsed > 0.05) ||
+        (musicDuration > 0 && elapsed >= musicDuration);
+
+    if (finished) {
+        playing = false;
+        paused = false;
+        ended = true;
+        updateProgress(durationSec);
+        if (currentSong().lyrics.length) highlight(currentSong().lyrics.length - 1, false);
+        setStatus('Wonderful singing! ✨');
+        updatePlayButton();
+        rafId = 0;
+        return;
+    }
+
+    let line = 0;
+    for (let i = 0; i < lineCues.length; i++) {
+        if (lineCues[i].time <= elapsed) line = i;
+        else break;
+    }
+    if (line !== activeLine) highlight(line, true);
+    updateProgress(Math.min(elapsed, durationSec));
+    rafId = requestAnimationFrame(renderFrame);
+}
 async function loadSongs() { const response=await fetch('songs.json',{cache:'no-store'});if(!response.ok)throw new Error('Could not load songs.json. Keep it beside index.html and run the app through a web server or GitHub Pages.');const data=await response.json();if(!Array.isArray(data.songs)||!data.songs.length)throw new Error('songs.json has no songs list.');return data.songs; }
 $('playBtn').addEventListener('click',togglePlayback);$('stopBtn').addEventListener('click',stopAndRewind);$('songSearch').addEventListener('input',renderCards);
 $('volumeSlider').addEventListener('input',e=>{volume=Number(e.target.value)/100;$('volumeValue').textContent=e.target.value+'%';if(masterGain&&audioCtx)masterGain.gain.setTargetAtTime(volume,audioCtx.currentTime,.025);});
-$('tempoSlider').addEventListener('change',async e=>{speed=Number(e.target.value)/100;$('tempoValue').textContent=e.target.value+'%';if(playing)await startPlayback();else if(paused)stopAndRewind();});
+$('tempoSlider').addEventListener('input',e=>{speed=Number(e.target.value)/100;$('tempoValue').textContent=e.target.value+'%';if(sequencer)sequencer.playbackRate=speed;});
 (async()=>{try{songs=await loadSongs();renderCards();updateHeader();renderLyrics();setStatus('Ready to sing');updateProgress(0);}catch(e){setStatus('Could not load library');showWarning(e.message);$('stageSongTitle').textContent='Song library unavailable';}})();
 })();
 </script>
