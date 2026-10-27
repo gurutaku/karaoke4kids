@@ -1124,7 +1124,7 @@
                 updateProgress(Math.min(elapsed, durationSec));
                 rafId = requestAnimationFrame(renderFrame);
             }
-            async function loadSongs() { const response = await fetch('songs.json', { cache: 'no-store' }); if (!response.ok) throw new Error('Could not load songs.json. Keep it beside index.html and run the app through a web server or GitHub Pages.'); const data = await response.json(); if (!Array.isArray(data.songs) || !data.songs.length) throw new Error('songs.json has no songs list.'); return data.songs; }
+            async function loadSongs() { const response = await fetch('./songs.json', { cache: 'no-store' }); if (!response.ok) throw new Error('Could not load songs.json. Keep it beside index.html and run the app through a web server or GitHub Pages.'); const data = await response.json(); if (!Array.isArray(data.songs) || !data.songs.length) throw new Error('songs.json has no songs list.'); return data.songs; }
             $('playBtn').addEventListener('click', togglePlayback); $('stopBtn').addEventListener('click', stopAndRewind); $('songSearch').addEventListener('input', renderCards);
             $('volumeSlider').addEventListener('input', e => { volume = Number(e.target.value) / 100; $('volumeValue').textContent = e.target.value + '%'; if (masterGain && audioCtx) masterGain.gain.setTargetAtTime(volume, audioCtx.currentTime, .025); });
             $('tempoSlider').addEventListener('input', e => { speed = Number(e.target.value) / 100; $('tempoValue').textContent = e.target.value + '%'; if (sequencer) sequencer.playbackRate = speed; });
