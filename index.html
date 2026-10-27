@@ -2174,15 +2174,38 @@ async function getPlayer() {
     // Load the audio library only when playback is requested. Song browsing
     // remains available even if the audio CDN is temporarily unavailable.
     if (!Sequencer || !WorkletSynthesizer) {
-        try {
-            const audioLibrary = await import('https://esm.sh/spessasynth_lib@4.3.14');
-            Sequencer = audioLibrary.Sequencer;
-            WorkletSynthesizer = audioLibrary.WorkletSynthesizer;
-            if (!Sequencer || !WorkletSynthesizer) {
-                throw new Error('The audio library did not provide the required components.');
+        // spessasynth_lib@4.3.14 was built against spessasynth_core@4.3.20.
+        // Do not let the CDN silently resolve the dependency to a newer version:
+        // that can cause runtime export errors such as missing KeyModifier.
+        const audioLibraryUrls = [
+            'https://esm.sh/spessasynth_lib@4.3.14?bundle&deps=spessasynth_core@4.3.20',
+            'https://esm.sh/spessasynth_lib@4.3.14?deps=spessasynth_core@4.3.20'
+        ];
+        const importErrors = [];
+
+        for (const url of audioLibraryUrls) {
+            try {
+                const audioLibrary = await import(url);
+                if (typeof audioLibrary.Sequencer !== 'function' ||
+                    typeof audioLibrary.WorkletSynthesizer !== 'function') {
+                    throw new Error('The audio library did not provide Sequencer and WorkletSynthesizer.');
+                }
+                Sequencer = audioLibrary.Sequencer;
+                WorkletSynthesizer = audioLibrary.WorkletSynthesizer;
+                break;
+            } catch (error) {
+                importErrors.push(error?.message || String(error));
+                console.warn('SpessaSynth import attempt failed:', url, error);
             }
-        } catch (error) {
-            throw new Error('Could not load the audio library. Check your internet connection and try again. ' + (error?.message || ''));
+        }
+
+        if (!Sequencer || !WorkletSynthesizer) {
+            throw new Error(
+                'Could not load a compatible SpessaSynth audio library. The app pins ' +
+                'spessasynth_lib 4.3.14 with spessasynth_core 4.3.20 to prevent the ' +
+                'KeyModifier export mismatch. Check your internet connection and reload. ' +
+                importErrors.join(' | ')
+            );
         }
     }
 
